@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Verruga Del Nether",
+        "tipo": "Base",
+        "descripcion": "Ingrediente esencial para todas las pociones primarias."
+    },
+    {
+        "id": 2,
+        "nombre": "Lágrima de Ghast",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de regeneración."
+    },
+    {
+        "id": 3,
+        "nombre": "Sandía reluciente",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de curación instantánea."
+    },
+    {
+        "id": 4,
+        "nombre": "Azúcar",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de velocidad."
+    },
+    {
+        "id": 5,
+        "nombre": "Redstone",
+        "tipo": "Modificador",
+        "descripcion": "Extiende la duración de una poción."
+    },
+    {
+        "id": 6,
+        "nombre": "Glowstone",
+        "tipo": "Modificador",
+        "descripcion": "Aumenta la potencia del efecto de una poción."
+    },
+    {
+        "id": 7,
+        "nombre": "Pólvora",
+        "tipo": "Modificador",
+        "descripcion": "Transforma una poción en una versión arrojadiza (splash)."
+    },
+    {
+        "id": 8,
+        "nombre": "Aliento de Dragón",
+        "tipo": "Modificador",
+        "descripcion": "Convierte una poción arrojadiza en una poción persistente (lingering)."
+    }
+]

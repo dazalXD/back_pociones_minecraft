@@ -1,0 +1,113 @@
+openapi: 3.0.0
+info:
+  title: Minecraft Potion Ingredients API
+  version: 1.0.0
+  description: API para obtener una lista de ingredientes necesarios para la alquimia en Minecraft.
+
+servers:
+  - url: http://localhost:3000/api/v1
+    description: Servidor Local
+
+paths:
+  /potions/ingredients:
+    get:
+      summary: Obtiene la lista de ingredientes para pociones
+      description: Devuelve un array con todos los ingredientes de pociones, incluyendo su tipo y descripción.
+      tags:
+        - Pociones
+      responses:
+        '200':
+          description: Lista de ingredientes obtenida exitosamente
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Ingredient'
+        '500':
+          description: Error del servidor
+  /potions/positive: # <--- ¡NUEVO PATH!
+    get:
+      summary: Obtiene la lista de pociones con efectos beneficiosos
+      description: Devuelve un listado de pociones que otorgan efectos positivos al jugador (curación, velocidad, fuerza, etc.).
+      tags:
+        - Pociones
+      responses:
+        '200':
+          description: Lista de pociones beneficiosas obtenida exitosamente
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PotionDetail'
+        '500':
+          description: Error del servidor
+  /potions/negative: # <--- ¡NUEVO PATH!
+    get:
+      summary: Obtiene la lista de pociones con efectos negativos o derivados
+      description: Devuelve un listado de pociones que infligen daño o que son el resultado de corromper pociones útiles.
+      tags:
+        - Pociones
+      responses:
+        '200':
+          description: Lista de pociones perjudiciales obtenida exitosamente
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PotionDetail' # Usaremos un esquema genérico para ambos
+        '500':
+          description: Error del servidor
+
+components:
+  schemas:
+    Ingredient:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: ID único del ingrediente
+        nombre:
+          type: string
+          description: Nombre en español del ingrediente
+        tipo:
+          type: string
+          description: Clasificación del ingrediente (Base, Efecto, Modificador)
+        descripcion:
+          type: string
+          description: Uso del ingrediente en la alquimia
+      example:
+        id: 1
+        nombre: Verruga abisal
+        tipo: Base
+        descripcion: Ingrediente esencial para todas las pociones primarias.
+    PotionDetail: # <--- ¡NUEVO ESQUEMA! Para el detalle de las pociones
+      type: object
+      properties:
+        pocion_nombre:
+          type: string
+          description: Nombre de la poción resultante.
+        ingrediente_efecto:
+          type: object
+          properties:
+            nombre:
+              type: string
+              description: El ingrediente que produce el efecto (ej. Ojo de Araña).
+            descripcion:
+              type: string
+              description: El efecto principal del ingrediente.
+        pasos:
+          type: array
+          items:
+            type: string
+          description: Pasos necesarios para fabricar la poción.
+      example:
+        pocion_nombre: Poción de Veneno
+        ingrediente_efecto: 
+          nombre: Ojo de Araña
+          descripcion: Crea una poción que inflige daño continuo con el tiempo.
+        pasos:
+          - "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)"
+          - "2. Poción Rara + Ojo de Araña = Poción de Veneno (Nivel I)"

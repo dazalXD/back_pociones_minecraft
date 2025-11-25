@@ -1,0 +1,79 @@
+[
+  {
+    "pocion_nombre": "Poción de Curación Instantánea",
+    "ingrediente_efecto": {
+      "nombre": "Sandía reluciente",
+      "descripcion": "Restaura vida de forma inmediata."
+    },
+    "pasos": [
+      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
+      "2. Poción Rara + Sandía Reluciente = Poción de Curación Instantánea (Nivel I)"
+    ]
+  },
+  {
+    "pocion_nombre": "Poción de Visión Nocturna",
+    "ingrediente_efecto": {
+      "nombre": "Zanahoria Dorada",
+      "descripcion": "Permite ver claramente en la oscuridad."
+    },
+    "pasos": [
+      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
+      "2. Poción Rara + Zanahoria Dorada = Poción de Visión Nocturna"
+    ]
+  },
+  {
+    "pocion_nombre": "Poción de Velocidad",
+    "ingrediente_efecto": {
+      "nombre": "Azúcar",
+      "descripcion": "Aumenta la velocidad de movimiento."
+    },
+    "pasos": [
+      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
+      "2. Poción Rara + Azúcar = Poción de Velocidad (Nivel I)"
+    ]
+  },
+  {
+    "pocion_nombre": "Poción de Resistencia al Fuego",
+    "ingrediente_efecto": {
+      "nombre": "Crema de Magma",
+      "descripcion": "Otorga inmunidad al daño por fuego y lava."
+    },
+    "pasos": [
+      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
+      "2. Poción Rara + Crema de Magma = Poción de Resistencia al Fuego"
+    ]
+  },
+  {
+    "pocion_nombre": "Poción de Fuerza",
+    "ingrediente_efecto": {
+      "nombre": "Polvo de Blaze",
+      "descripcion": "Incrementa el daño de ataque."
+    },
+    "pasos": [
+      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
+      "2. Poción Rara + Polvo de Blaze = Poción de Fuerza (Nivel I)"
+    ]
+  },
+  {
+    "pocion_nombre": "Poción de Respiración Acuática",
+    "ingrediente_efecto": {
+      "nombre": "Pez Globo",
+      "descripcion": "Permite respirar bajo el agua por un tiempo limitado."
+    },
+    "pasos": [
+      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
+      "2. Poción Rara + Pez Globo = Poción de Respiración Acuática"
+    ]
+  },
+  {
+    "pocion_nombre": "Poción de Regeneración",
+    "ingrediente_efecto": {
+      "nombre": "Lágrima de Ghast",
+      "descripcion": "Restaura la salud con el tiempo."
+    },
+    "pasos": [
+      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
+      "2. Poción Rara + Lágrima de Ghast = Poción de Regeneración (Nivel I)"
+    ]
+  }
+]
