@@ -46,5 +46,41 @@
         "nombre": "Aliento de Dragón",
         "tipo": "Modificador",
         "descripcion": "Convierte una poción arrojadiza en una poción persistente (lingering)."
+    },
+    {
+        "id": 9,
+        "nombre": "Zanahoria Dorada",
+        "tipo": "Efecto",
+        "descripcion": "Crear una poción de visión nocturna."
+    },
+    {
+        "id": 10,
+        "nombre": "Crema de magma",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de resistencia al fuego."
+    },
+    {
+        "id": 11,
+        "nombre": "Polvo de Blazze",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de Fuerza."
+    },
+    {
+        "id": 12,
+        "nombre": "Pez Globo",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de Respiración Acuática."
+    },
+    {
+        "id": 13,
+        "nombre": "Ojo de Araña",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de Veneno."
+    },
+    {
+        "id": 14,
+        "nombre": "Ojo de Araña Fermentado",
+        "tipo": "Efecto",
+        "descripcion": "Corrompe pociones a efectos negativos."
     }
 ]
