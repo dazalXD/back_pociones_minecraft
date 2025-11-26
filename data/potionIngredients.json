@@ -3,84 +3,98 @@
         "id": 1,
         "nombre": "Verruga Del Nether",
         "tipo": "Base",
-        "descripcion": "Ingrediente esencial para todas las pociones primarias."
+        "descripcion": "Ingrediente esencial para todas las pociones primarias.",
+        "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png"
     },
     {
         "id": 2,
         "nombre": "Lágrima de Ghast",
         "tipo": "Efecto",
-        "descripcion": "Crea una poción de regeneración."
+        "descripcion": "Crea una poción de regeneración.",
+        "imagen": "http://10.55.37.2:3000/assets/lagrima_ghast.webp"
     },
     {
         "id": 3,
         "nombre": "Sandía reluciente",
         "tipo": "Efecto",
-        "descripcion": "Crea una poción de curación instantánea."
+        "descripcion": "Crea una poción de curación instantánea.",
+        "imagen": "http://10.55.37.2:3000/assets/sandia_relusiente.webp"
     },
     {
         "id": 4,
         "nombre": "Azúcar",
         "tipo": "Efecto",
-        "descripcion": "Crea una poción de velocidad."
+        "descripcion": "Crea una poción de velocidad.",
+        "imagen": "http://10.55.37.2:3000/assets/azucar.png"
     },
     {
         "id": 5,
         "nombre": "Redstone",
         "tipo": "Modificador",
-        "descripcion": "Extiende la duración de una poción."
+        "descripcion": "Extiende la duración de una poción.",
+        "imagen": "http://10.55.37.2:3000/assets/redstone.png"
     },
     {
         "id": 6,
         "nombre": "Glowstone",
         "tipo": "Modificador",
-        "descripcion": "Aumenta la potencia del efecto de una poción."
+        "descripcion": "Aumenta la potencia del efecto de una poción.",
+        "imagen": "http://10.55.37.2:3000/assets/glowstone.png"
     },
     {
         "id": 7,
         "nombre": "Pólvora",
         "tipo": "Modificador",
-        "descripcion": "Transforma una poción en una versión arrojadiza (splash)."
+        "descripcion": "Transforma una poción en una versión arrojadiza (splash).",
+        "imagen": "http://10.55.37.2:3000/assets/polvora.png"
     },
     {
         "id": 8,
         "nombre": "Aliento de Dragón",
         "tipo": "Modificador",
-        "descripcion": "Convierte una poción arrojadiza en una poción persistente (lingering)."
+        "descripcion": "Convierte una poción arrojadiza en una poción persistente (lingering).",
+        "imagen": "http://10.55.37.2:3000/assets/aliento_dragon.png"
     },
     {
         "id": 9,
         "nombre": "Zanahoria Dorada",
         "tipo": "Efecto",
-        "descripcion": "Crear una poción de visión nocturna."
+        "descripcion": "Crear una poción de visión nocturna.",
+        "imagen": "http://10.55.37.2:3000/assets/zanahoria_dorada.png"
     },
     {
         "id": 10,
         "nombre": "Crema de magma",
         "tipo": "Efecto",
-        "descripcion": "Crea una poción de resistencia al fuego."
+        "descripcion": "Crea una poción de resistencia al fuego.",
+        "imagen": "http://10.55.37.2:3000/assets/crema_de_magma.png"
     },
     {
         "id": 11,
         "nombre": "Polvo de Blazze",
         "tipo": "Efecto",
-        "descripcion": "Crea una poción de Fuerza."
+        "descripcion": "Crea una poción de Fuerza.",
+        "imagen": "http://10.55.37.2:3000/assets/polvo_blaze.png"
     },
     {
         "id": 12,
         "nombre": "Pez Globo",
         "tipo": "Efecto",
-        "descripcion": "Crea una poción de Respiración Acuática."
+        "descripcion": "Crea una poción de Respiración Acuática.",
+        "imagen": "http://10.55.37.2:3000/assets/pez_globo.png"
     },
     {
         "id": 13,
         "nombre": "Ojo de Araña",
         "tipo": "Efecto",
-        "descripcion": "Crea una poción de Veneno."
+        "descripcion": "Crea una poción de Veneno.",
+        "imagen": "http://10.55.37.2:3000/assets/Ojo_araña.png"
     },
     {
         "id": 14,
         "nombre": "Ojo de Araña Fermentado",
         "tipo": "Efecto",
-        "descripcion": "Corrompe pociones a efectos negativos."
+        "descripcion": "Corrompe pociones a efectos negativos.",
+        "imagen": "http://10.55.37.2:3000/assets/ojo_de_araña_fermentado.png"
     }
 ]
