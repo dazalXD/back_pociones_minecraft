@@ -5,7 +5,7 @@ info:
   description: API para obtener una lista de ingredientes necesarios para la alquimia en Minecraft.
 
 servers:
-  - url: http://localhost:3000/api/v1
+  - url: http://10.55.37.2:3000/api/v1
     description: Servidor Local
 
 paths:

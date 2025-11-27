@@ -57,4 +57,4 @@ app.use('/assets', express.static('assets'));
 app.listen(PORT, () => {
     console.log(`✅ Servidor Express corriendo en http://10.55.37.2:${PORT}`);
     console.log(`📖 Documentación Swagger disponible en http://10.55.37.2:${PORT}/api-docs`);
-});
+});     
