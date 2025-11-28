@@ -1,72 +1,195 @@
 [
     {
-        "pocion_nombre": "Poción de Debilidad",
-        "ingrediente_efecto": {
-            "nombre": "Ojo de Araña Fermentado",
-            "descripcion": "Corrompe una Poción Rara para reducir el daño de ataque."
-        },
+        "nombre": "Poción de Debilidad",
+        "descripcion": "Corrompe una Poción Rara para reducir el daño de ataque.",
+        "ingredientes": [
+            {
+                "id": 1,
+                "nombre": "Verruga Del Nether",
+                "tipo": "Base",
+                "descripcion": "Ingrediente esencial para todas las pociones primarias.",
+                "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
+                "obtencion": {
+                    "dimencion": "Nether",
+                    "ubicacion": "Fortalezas del Nether",
+                    "Herramienta": "No",
+                    "crafteo": "No"
+                }
+            },
+            {
+                "id": 14,
+                "nombre": "Ojo de Araña Fermentado",
+                "tipo": "Efecto",
+                "descripcion": "Corrompe pociones a efectos negativos.",
+                "imagen": "http://10.55.37.2:3000/assets/ojo_de_araña_fermentado.png",
+                "obtencion": {
+                    "dimencion": "Overworld",
+                    "ubicacion": "No",
+                    "Herramienta": "No",
+                    "crafteo": "Se obtiene al craftear un ojo de araña con azúcar y una verruga del nether"
+                }
+            }
+        ],
         "pasos": [
             "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
             "2. Poción Rara + Ojo de Araña Fermentado = Poción de Debilidad"
         ]
     },
     {
-        "pocion_nombre": "Poción de Veneno",
-        "ingrediente_efecto": {
-            "nombre": "Ojo de Araña",
-            "descripcion": "Crea una poción que inflige daño continuo con el tiempo."
-        },
+        "nombre": "Poción de Veneno",
+        "descripcion": "Crea una poción que inflige daño continuo con el tiempo.",
+        "ingredientes": [
+            {
+                "id": 1,
+                "nombre": "Verruga Del Nether",
+                "tipo": "Base",
+                "descripcion": "Ingrediente esencial para todas las pociones primarias.",
+                "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
+                "obtencion": {
+                    "dimencion": "Nether",
+                    "ubicacion": "Fortalezas del Nether",
+                    "Herramienta": "No",
+                    "crafteo": "No"
+                }
+            },
+            {
+                "id": 13,
+                "nombre": "Ojo de Araña",
+                "tipo": "Efecto",
+                "descripcion": "Crea una poción de Veneno.",
+                "imagen": "http://10.55.37.2:3000/assets/Ojo_araña.png",
+                "obtencion": {
+                    "dimencion": "Overworld",
+                    "ubicacion": "Cualquier bioma",
+                    "Herramienta": "No",
+                    "crafteo": "Se obtiene al derrotar a una araña o una araña cueva"
+                }
+            }
+        ],
         "pasos": [
             "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
             "2. Poción Rara + Ojo de Araña = Poción de Veneno (Nivel I)"
         ]
     },
     {
-        "pocion_nombre": "Poción de Lentitud",
-        "ingrediente_efecto": {
-            "nombre": "Ojo de Araña Fermentado (derivado)",
-            "descripcion": "Se obtiene corrompiendo una Poción de Velocidad para reducir la velocidad de movimiento."
-        },
+        "nombre": "Poción de Lentitud",
+        "descripcion": "Se obtiene corrompiendo una Poción de Velocidad para reducir la velocidad de movimiento.",
+        "ingredientes": [
+            {
+                "id": 14,
+                "nombre": "Ojo de Araña Fermentado",
+                "tipo": "Efecto",
+                "descripcion": "Corrompe pociones a efectos negativos.",
+                "imagen": "http://10.55.37.2:3000/assets/ojo_de_araña_fermentado.png",
+                "obtencion": {
+                    "dimencion": "Overworld",
+                    "ubicacion": "No",
+                    "Herramienta": "No",
+                    "crafteo": "Se obtiene al craftear un ojo de araña con azúcar y una verruga del nether"
+                }
+            }
+        ],
         "pasos": [
             "1. Poción de Velocidad (ya creada con Azúcar) + Ojo de Araña Fermentado = Poción de Lentitud (Nivel I)"
         ]
     },
     {
-        "pocion_nombre": "Poción de Daño Instantáneo",
-        "ingrediente_efecto": {
-            "nombre": "Ojo de Araña Fermentado (derivado)",
-            "descripcion": "Se obtiene corrompiendo una Poción de Curación Instantánea para infligir daño instantáneo."
-        },
+        "nombre": "Poción de Daño Instantáneo",
+        "descripcion": "Se obtiene corrompiendo una Poción de Curación Instantánea para infligir daño instantáneo.",
+        "ingredientes": [
+            {
+                "id": 14,
+                "nombre": "Ojo de Araña Fermentado",
+                "tipo": "Efecto",
+                "descripcion": "Corrompe pociones a efectos negativos.",
+                "imagen": "http://10.55.37.2:3000/assets/ojo_de_araña_fermentado.png",
+                "obtencion": {
+                    "dimencion": "Overworld",
+                    "ubicacion": "No",
+                    "Herramienta": "No",
+                    "crafteo": "Se obtiene al craftear un ojo de araña con azúcar y una verruga del nether"
+                }
+            }
+        ],
         "pasos": [
             "1. Poción de Curación Instantánea (ya creada con Sandía Reluciente) + Ojo de Araña Fermentado = Poción de Daño Instantáneo (Nivel I)"
         ]
     },
     {
-        "pocion_nombre": "Poción de Invisibilidad",
-        "ingrediente_efecto": {
-            "nombre": "Ojo de Araña Fermentado (derivado)",
-            "descripcion": "Se obtiene corrompiendo una Poción de Visión Nocturna. ¡Aunque es útil, su origen es una corrupción!"
-        },
+        "nombre": "Poción de Invisibilidad",
+        "descripcion": "Se obtiene corrompiendo una Poción de Visión Nocturna. ¡Aunque es útil, su origen es una corrupción!",
+        "ingredientes": [
+            {
+                "id": 14,
+                "nombre": "Ojo de Araña Fermentado",
+                "tipo": "Efecto",
+                "descripcion": "Corrompe pociones a efectos negativos.",
+                "imagen": "http://10.55.37.2:3000/assets/ojo_de_araña_fermentado.png",
+                "obtencion": {
+                    "dimencion": "Overworld",
+                    "ubicacion": "No",
+                    "Herramienta": "No",
+                    "crafteo": "Se obtiene al craftear un ojo de araña con azúcar y una verruga del nether"
+                }
+            }
+        ],
         "pasos": [
             "1. Poción de Visión Nocturna (ya creada con Zanahoria Dorada) + Ojo de Araña Fermentado = Poción de Invisibilidad"
         ]
     },
     {
-        "pocion_nombre": "Transformación a Arrojadiza (Splash)",
-        "ingrediente_efecto": {
-            "nombre": "Pólvora",
-            "descripcion": "Se añade a CUALQUIER poción para convertirla en arrojadiza (se puede lanzar a enemigos o aliados)."
-        },
+        "nombre": "Transformación a Arrojadiza (Splash)",
+        "descripcion": "Se añade a CUALQUIER poción para convertirla en arrojadiza (se puede lanzar a enemigos o aliados).",
+        "ingredientes": [
+            {
+                "id": 7,
+                "nombre": "Pólvora",
+                "tipo": "Modificador",
+                "descripcion": "Transforma una poción en una versión arrojadiza (splash).",
+                "imagen": "http://10.55.37.2:3000/assets/polvora.png",
+                "obtencion": {
+                    "dimencion": "Overworld, Nether",
+                    "ubicacion": "Cualquier bioma",
+                    "Herramienta": "No",
+                    "crafteo": "Se obtiene al derrotar a Creepers, Ghasts o Brujas"
+                }
+            }
+        ],
         "pasos": [
             "1. Cualquier Poción Terminada + Pólvora = Poción Arrojadiza de [Efecto]"
         ]
     },
     {
-        "pocion_nombre": "Poción de Persistencia (Lingering)",
-        "ingrediente_efecto": {
-            "nombre": "Aliento de Dragón",
-            "descripcion": "Transforma cualquier poción arrojadiza (splash) en una poción de persistencia, dejando una nube de efecto en el área.\n Para efectos de persistencia negativos, primero debe transformarse a Poción Arrojadiza de un efecto negativo (ej: Veneno)."
-        },
+        "nombre": "Poción de Persistencia (Lingering)",
+        "descripcion": "Transforma cualquier poción arrojadiza (splash) en una poción de persistencia, dejando una nube de efecto en el área.\n Para efectos de persistencia negativos, primero debe transformarse a Poción Arrojadiza de un efecto negativo (ej: Veneno).",
+        "ingredientes": [
+            {
+                "id": 7,
+                "nombre": "Pólvora",
+                "tipo": "Modificador",
+                "descripcion": "Transforma una poción en una versión arrojadiza (splash).",
+                "imagen": "http://10.55.37.2:3000/assets/polvora.png",
+                "obtencion": {
+                    "dimencion": "Overworld, Nether",
+                    "ubicacion": "Cualquier bioma",
+                    "Herramienta": "No",
+                    "crafteo": "Se obtiene al derrotar a Creepers, Ghasts o Brujas"
+                }
+            },
+            {
+                "id": 8,
+                "nombre": "Aliento de Dragón",
+                "tipo": "Modificador",
+                "descripcion": "Convierte una poción arrojadiza en una poción persistente (lingering).",
+                "imagen": "http://10.55.37.2:3000/assets/aliento_dragon.png",
+                "obtencion": {
+                    "dimencion": "End",
+                    "ubicacion": "Isla pricipal del End",
+                    "Herramienta": "Botella de vidrio",
+                    "crafteo": "Se obtiene al usar una botella sobre el aliento del dragón"
+                }
+            }
+        ],
         "pasos": [
             "1. CUALQUIER Poción Terminada (ej: Curación) + Pólvora = Poción Arrojadiza de [Efecto].",
             "2. Poción Arrojadiza de [Efecto] + Aliento de Dragón = Poción de Persistencia de [Efecto]."

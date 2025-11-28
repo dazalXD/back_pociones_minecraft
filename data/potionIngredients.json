@@ -4,97 +4,207 @@
         "nombre": "Verruga Del Nether",
         "tipo": "Base",
         "descripcion": "Ingrediente esencial para todas las pociones primarias.",
-        "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png"
+        "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
+        "obtencion": {
+            "dimencion": "Nether",
+            "ubicacion": "Fortalezas del Nether",
+            "Herramienta" : "No",
+            "crafteo": "No"
+        }
     },
     {
         "id": 2,
         "nombre": "Lágrima de Ghast",
         "tipo": "Efecto",
         "descripcion": "Crea una poción de regeneración.",
-        "imagen": "http://10.55.37.2:3000/assets/lagrima_ghast.webp"
+        "imagen": "http://10.55.37.2:3000/assets/lagrima_ghast.webp",
+        "obtencion": {
+            "dimencion": "Nether",
+            "ubicacion": "cualquier bioma del nether",
+            "Herramienta" : "No",
+            "crafteo": "Se obtiene al derrotar a un Ghast"
+        }
     },
     {
         "id": 3,
         "nombre": "Sandía reluciente",
         "tipo": "Efecto",
         "descripcion": "Crea una poción de curación instantánea.",
-        "imagen": "http://10.55.37.2:3000/assets/sandia_relusiente.webp"
+        "imagen": "http://10.55.37.2:3000/assets/sandia_relusiente.webp",
+        "obtencion": {
+            "dimencion": "Overworld",
+            "ubicacion": "bioma jungla",
+            "Herramienta" : "No",
+            "crafteo": "Se obtiene al craftear una sandía con 8 pepitas de oro"
+        }
     },
     {
         "id": 4,
         "nombre": "Azúcar",
         "tipo": "Efecto",
         "descripcion": "Crea una poción de velocidad.",
-        "imagen": "http://10.55.37.2:3000/assets/azucar.png"
+        "imagen": "http://10.55.37.2:3000/assets/azucar.png",
+        "obtencion": {
+            "dimencion": "Overworld",
+            "ubicacion": "bioma orilla de ríos y océanos",
+            "Herramienta" : "No",
+            "crafteo": "Se obtiene al descraftear caña de azúcar o derrotando a una bruja"
+        }
     },
     {
         "id": 5,
         "nombre": "Redstone",
         "tipo": "Modificador",
         "descripcion": "Extiende la duración de una poción.",
-        "imagen": "http://10.55.37.2:3000/assets/redstone.png"
+        "imagen": "http://10.55.37.2:3000/assets/redstone.png",
+        "obtencion": {
+            "dimencion": "Overworld",
+            "ubicacion": "Cualquier bioma bajo tierra capa -54 y 15",
+            "Herramienta" : "Pico de piedra o superior",
+            "crafteo": "No"
+        }
     },
     {
         "id": 6,
-        "nombre": "Glowstone",
+        "nombre": "polvo de glowstone",
         "tipo": "Modificador",
         "descripcion": "Aumenta la potencia del efecto de una poción.",
-        "imagen": "http://10.55.37.2:3000/assets/glowstone.png"
+        "imagen": "http://10.55.37.2:3000/assets/glowstone.png",
+        "obtencion": {
+            "dimencion": "Nether",
+            "ubicacion": "Cualquier bioma del nether en el techo",
+            "Herramienta" : "Pico de piedra o superior",
+            "crafteo": "No"
+        }
     },
     {
         "id": 7,
         "nombre": "Pólvora",
         "tipo": "Modificador",
         "descripcion": "Transforma una poción en una versión arrojadiza (splash).",
-        "imagen": "http://10.55.37.2:3000/assets/polvora.png"
+        "imagen": "http://10.55.37.2:3000/assets/polvora.png",
+        "obtencion": {
+            "dimencion": "Overworld, Nether",
+            "ubicacion": "Cualquier bioma",
+            "Herramienta" : "No",
+            "crafteo": "Se obtiene al derrotar a Creepers, Ghasts o Brujas"
+        }
     },
     {
         "id": 8,
         "nombre": "Aliento de Dragón",
         "tipo": "Modificador",
         "descripcion": "Convierte una poción arrojadiza en una poción persistente (lingering).",
-        "imagen": "http://10.55.37.2:3000/assets/aliento_dragon.png"
+        "imagen": "http://10.55.37.2:3000/assets/aliento_dragon.png",
+        "obtencion": {
+            "dimencion": "End",
+            "ubicacion": "Isla pricipal del End",
+            "Herramienta" : "Botella de vidrio",
+            "crafteo": "Se obtiene al usar una botella sobre el aliento del dragón"
+        }
     },
     {
         "id": 9,
         "nombre": "Zanahoria Dorada",
         "tipo": "Efecto",
         "descripcion": "Crear una poción de visión nocturna.",
-        "imagen": "http://10.55.37.2:3000/assets/zanahoria_dorada.png"
+        "imagen": "http://10.55.37.2:3000/assets/zanahoria_dorada.png",
+        "obtencion": {
+            "dimencion": "Overworld",
+            "ubicacion": "No",
+            "Herramienta" : "No",
+            "crafteo": "Se obtiene al craftear una zanahoria con 8 pepitas de oro"
+        }
     },
     {
         "id": 10,
         "nombre": "Crema de magma",
         "tipo": "Efecto",
         "descripcion": "Crea una poción de resistencia al fuego.",
-        "imagen": "http://10.55.37.2:3000/assets/crema_de_magma.png"
+        "imagen": "http://10.55.37.2:3000/assets/crema_de_magma.png",
+        "obtencion": {
+            "dimencion": "Nether",
+            "ubicacion": "Cualquier bioma del nether",
+            "Herramienta" : "No",
+            "crafteo": "Se obtiene al derrotar a un magma cube"
+        }
     },
     {
         "id": 11,
         "nombre": "Polvo de Blazze",
         "tipo": "Efecto",
         "descripcion": "Crea una poción de Fuerza.",
-        "imagen": "http://10.55.37.2:3000/assets/polvo_blaze.png"
+        "imagen": "http://10.55.37.2:3000/assets/polvo_blaze.png",
+        "obtencion": {
+            "dimencion": "Nether",
+            "ubicacion": "Fortalezas del Nether",
+            "Herramienta" : "No",
+            "crafteo": "Al derrotar a un Blaze se obtienen las baras de blaze, se descaraftean para obtener el polvo"
+        }
     },
     {
         "id": 12,
         "nombre": "Pez Globo",
         "tipo": "Efecto",
         "descripcion": "Crea una poción de Respiración Acuática.",
-        "imagen": "http://10.55.37.2:3000/assets/pez_globo.png"
+        "imagen": "http://10.55.37.2:3000/assets/pez_globo.png",
+        "obtencion": {
+            "dimencion": "Overworld",
+            "ubicacion": "Océanos y ríos",
+            "Herramienta" : "Caña de pescar o cubo de agua",
+            "crafteo": "Se obtiene al pescarlo, al usar un cubo de agua sobre él o al derrotarlo"
+        }
     },
     {
         "id": 13,
         "nombre": "Ojo de Araña",
         "tipo": "Efecto",
         "descripcion": "Crea una poción de Veneno.",
-        "imagen": "http://10.55.37.2:3000/assets/Ojo_araña.png"
+        "imagen": "http://10.55.37.2:3000/assets/Ojo_araña.png",
+        "obtencion": {
+            "dimencion": "Overworld",
+            "ubicacion": "Cualquier bioma",
+            "Herramienta" : "No",
+            "crafteo": "Se obtiene al derrotar a una araña o una araña cueva"
+        }
     },
     {
         "id": 14,
         "nombre": "Ojo de Araña Fermentado",
         "tipo": "Efecto",
         "descripcion": "Corrompe pociones a efectos negativos.",
-        "imagen": "http://10.55.37.2:3000/assets/ojo_de_araña_fermentado.png"
+        "imagen": "http://10.55.37.2:3000/assets/ojo_de_araña_fermentado.png",
+        "obtencion": {
+            "dimencion": "Overworld",
+            "ubicacion": "No",
+            "Herramienta" : "No",
+            "crafteo": "Se obtiene al craftear un ojo de araña con azúcar y una verruga del nether"
+        }
+    },
+    {
+        "id":15,
+        "nombre": "membrana de phantom",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de caida lenta.",
+        "imagen": "http://10.55.37.2:3000/assets/membrana_fantasma.webp",
+        "obtencion": {
+            "dimencion": "Overworld",
+            "ubicacion": "Cualquier bioma",
+            "Herramienta" : "No",
+            "crafteo": "Se obtiene al derrotar a un phantom"
+        }
+    },
+    {
+        "id":16,
+        "nombre": "Pata de conejo",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de salto.",
+        "imagen": "http://10.55.37.2:3000/assets/pata_conejo.webp",
+        "obtencion": {
+            "dimencion": "Overworld",
+            "ubicacion": "bioma floral, desiertos y llanuras",
+            "Herramienta" : "No",
+            "crafteo": "Se obtiene al derrotar a un conejo"
+        }
     }
-]
+]   
