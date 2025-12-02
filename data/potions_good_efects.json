@@ -1,79 +1,326 @@
 [
   {
-    "pocion_nombre": "Poción de Curación Instantánea",
-    "ingrediente_efecto": {
-      "nombre": "Sandía reluciente",
-      "descripcion": "Restaura vida de forma inmediata."
-    },
+    "nombre": "Poción de Curación Instantánea",
+    "descripcion": "Restaura vida de forma inmediata.",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Verruga Del Nether",
+        "tipo": "Base",
+        "descripcion": "Ingrediente esencial para todas las pociones primarias.",
+        "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
+        "obtencion": {
+          "dimencion": "Nether",
+          "ubicacion": "Fortalezas del Nether",
+          "Herramienta": "No",
+          "crafteo": "No"
+        }
+      },
+      {
+        "id": 3,
+        "nombre": "Sandía reluciente",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de curación instantánea.",
+        "imagen": "http://10.55.37.2:3000/assets/sandia_relusiente.webp",
+        "obtencion": {
+          "dimencion": "Overworld",
+          "ubicacion": "bioma jungla",
+          "Herramienta": "No",
+          "crafteo": "Se obtiene al craftear una sandía con 8 pepitas de oro"
+        }
+      }
+    ],
     "pasos": [
-      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
+      "1. Botella de Agua + Verruga Del Nether = Poción Rara (Base)",
       "2. Poción Rara + Sandía Reluciente = Poción de Curación Instantánea (Nivel I)"
     ]
   },
   {
-    "pocion_nombre": "Poción de Visión Nocturna",
-    "ingrediente_efecto": {
-      "nombre": "Zanahoria Dorada",
-      "descripcion": "Permite ver claramente en la oscuridad."
-    },
+    "nombre": "Poción de Visión Nocturna",
+    "descripcion": "Permite ver claramente en la oscuridad.",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Verruga Del Nether",
+        "tipo": "Base",
+        "descripcion": "Ingrediente esencial para todas las pociones primarias.",
+        "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
+        "obtencion": {
+          "dimencion": "Nether",
+          "ubicacion": "Fortalezas del Nether",
+          "Herramienta": "No",
+          "crafteo": "No"
+        }
+      },
+      {
+        "id": 9,
+        "nombre": "Zanahoria Dorada",
+        "tipo": "Efecto",
+        "descripcion": "Crear una poción de visión nocturna.",
+        "imagen": "http://10.55.37.2:3000/assets/zanahoria_dorada.png",
+        "obtencion": {
+          "dimencion": "Overworld",
+          "ubicacion": "No",
+          "Herramienta": "No",
+          "crafteo": "Se obtiene al craftear una zanahoria con 8 pepitas de oro"
+        }
+      }
+    ],
     "pasos": [
-      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
+      "1. Botella de Agua + Verruga Del Nether = Poción Rara (Base)",
       "2. Poción Rara + Zanahoria Dorada = Poción de Visión Nocturna"
     ]
   },
   {
-    "pocion_nombre": "Poción de Velocidad",
-    "ingrediente_efecto": {
-      "nombre": "Azúcar",
-      "descripcion": "Aumenta la velocidad de movimiento."
-    },
+    "nombre": "Poción de Velocidad",
+    "descripcion": "Aumenta la velocidad de movimiento.",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Verruga Del Nether",
+        "tipo": "Base",
+        "descripcion": "Ingrediente esencial para todas las pociones primarias.",
+        "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
+        "obtencion": {
+          "dimencion": "Nether",
+          "ubicacion": "Fortalezas del Nether",
+          "Herramienta": "No",
+          "crafteo": "No"
+        }
+      },
+      {
+        "id": 4,
+        "nombre": "Azúcar",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de velocidad.",
+        "imagen": "http://10.55.37.2:3000/assets/azucar.png",
+        "obtencion": {
+          "dimencion": "Overworld",
+          "ubicacion": "bioma orilla de ríos y océanos",
+          "Herramienta": "No",
+          "crafteo": "Se obtiene al descraftear caña de azúcar o derrotando a una bruja"
+        }
+      }
+    ],
     "pasos": [
-      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
+      "1. Botella de Agua + Verruga Del Nether = Poción Rara (Base)",
       "2. Poción Rara + Azúcar = Poción de Velocidad (Nivel I)"
     ]
   },
   {
-    "pocion_nombre": "Poción de Resistencia al Fuego",
-    "ingrediente_efecto": {
-      "nombre": "Crema de Magma",
-      "descripcion": "Otorga inmunidad al daño por fuego y lava."
-    },
+    "nombre": "Poción de Resistencia al Fuego",
+    "descripcion": "Otorga inmunidad al daño por fuego y lava.",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Verruga Del Nether",
+        "tipo": "Base",
+        "descripcion": "Ingrediente esencial para todas las pociones primarias.",
+        "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
+        "obtencion": {
+          "dimencion": "Nether",
+          "ubicacion": "Fortalezas del Nether",
+          "Herramienta": "No",
+          "crafteo": "No"
+        }
+      },
+      {
+        "id": 10,
+        "nombre": "Crema de magma",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de resistencia al fuego.",
+        "imagen": "http://10.55.37.2:3000/assets/crema_de_magma.png",
+        "obtencion": {
+          "dimencion": "Nether",
+          "ubicacion": "Cualquier bioma del nether",
+          "Herramienta": "No",
+          "crafteo": "Se obtiene al derrotar a un magma cube"
+        }
+      }
+    ],
     "pasos": [
-      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
+      "1. Botella de Agua + Verruga Del Nether = Poción Rara (Base)",
       "2. Poción Rara + Crema de Magma = Poción de Resistencia al Fuego"
     ]
   },
   {
-    "pocion_nombre": "Poción de Fuerza",
-    "ingrediente_efecto": {
-      "nombre": "Polvo de Blaze",
-      "descripcion": "Incrementa el daño de ataque."
-    },
+    "nombre": "Poción de Fuerza",
+    "descripcion": "Incrementa el daño de ataque.",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Verruga Del Nether",
+        "tipo": "Base",
+        "descripcion": "Ingrediente esencial para todas las pociones primarias.",
+        "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
+        "obtencion": {
+          "dimencion": "Nether",
+          "ubicacion": "Fortalezas del Nether",
+          "Herramienta": "No",
+          "crafteo": "No"
+        }
+      },
+      {
+        "id": 11,
+        "nombre": "Polvo de Blazze",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de Fuerza.",
+        "imagen": "http://10.55.37.2:3000/assets/polvo_blaze.png",
+        "obtencion": {
+          "dimencion": "Nether",
+          "ubicacion": "Fortalezas del Nether",
+          "Herramienta": "No",
+          "crafteo": "Al derrotar a un Blaze se obtienen las baras de blaze, se descaraftean para obtener el polvo"
+        }
+      }
+    ],
     "pasos": [
-      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
-      "2. Poción Rara + Polvo de Blaze = Poción de Fuerza (Nivel I)"
+      "1. Botella de Agua + Verruga Del Nether = Poción Rara (Base)",
+      "2. Poción Rara + Polvo de Blazze = Poción de Fuerza (Nivel I)"
     ]
   },
   {
-    "pocion_nombre": "Poción de Respiración Acuática",
-    "ingrediente_efecto": {
-      "nombre": "Pez Globo",
-      "descripcion": "Permite respirar bajo el agua por un tiempo limitado."
-    },
+    "nombre": "Poción de Respiración Acuática",
+    "descripcion": "Permite respirar bajo el agua por un tiempo limitado.",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Verruga Del Nether",
+        "tipo": "Base",
+        "descripcion": "Ingrediente esencial para todas las pociones primarias.",
+        "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
+        "obtencion": {
+          "dimencion": "Nether",
+          "ubicacion": "Fortalezas del Nether",
+          "Herramienta": "No",
+          "crafteo": "No"
+        }
+      },
+      {
+        "id": 12,
+        "nombre": "Pez Globo",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de Respiración Acuática.",
+        "imagen": "http://10.55.37.2:3000/assets/pez_globo.png",
+        "obtencion": {
+          "dimencion": "Overworld",
+          "ubicacion": "Océanos y ríos",
+          "Herramienta": "Caña de pescar o cubo de agua",
+          "crafteo": "Se obtiene al pescarlo, al usar un cubo de agua sobre él o al derrotarlo"
+        }
+      }
+    ],
     "pasos": [
-      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
+      "1. Botella de Agua + Verruga Del Nether = Poción Rara (Base)",
       "2. Poción Rara + Pez Globo = Poción de Respiración Acuática"
     ]
   },
   {
-    "pocion_nombre": "Poción de Regeneración",
-    "ingrediente_efecto": {
-      "nombre": "Lágrima de Ghast",
-      "descripcion": "Restaura la salud con el tiempo."
-    },
+    "nombre": "Poción de Regeneración",
+    "descripcion": "Restaura la salud con el tiempo.",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Verruga Del Nether",
+        "tipo": "Base",
+        "descripcion": "Ingrediente esencial para todas las pociones primarias.",
+        "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
+        "obtencion": {
+          "dimencion": "Nether",
+          "ubicacion": "Fortalezas del Nether",
+          "Herramienta": "No",
+          "crafteo": "No"
+        }
+      },
+      {
+        "id": 2,
+        "nombre": "Lágrima de Ghast",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de regeneración.",
+        "imagen": "http://10.55.37.2:3000/assets/lagrima_ghast.webp",
+        "obtencion": {
+          "dimencion": "Nether",
+          "ubicacion": "cualquier bioma del nether",
+          "Herramienta": "No",
+          "crafteo": "Se obtiene al derrotar a un Ghast"
+        }
+      }
+    ],
     "pasos": [
-      "1. Botella de Agua + Verruga Abisal = Poción Rara (Base)",
+      "1. Botella de Agua + Verruga Del Nether = Poción Rara (Base)",
       "2. Poción Rara + Lágrima de Ghast = Poción de Regeneración (Nivel I)"
+    ]
+  },
+  {
+    "nombre": "Poción de Caída Lenta",
+    "descripcion": "Crea una poción de caída lenta.",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Verruga Del Nether",
+        "tipo": "Base",
+        "descripcion": "Ingrediente esencial para todas las pociones primarias.",
+        "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
+        "obtencion": {
+          "dimencion": "Nether",
+          "ubicacion": "Fortalezas del Nether",
+          "Herramienta": "No",
+          "crafteo": "No"
+        }
+      },
+      {
+        "id": 15,
+        "nombre": "membrana de phantom",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de caida lenta.",
+        "imagen": "http://10.55.37.2:3000/assets/membrana_fantasma.webp",
+        "obtencion": {
+          "dimencion": "Overworld",
+          "ubicacion": "Cualquier bioma",
+          "Herramienta": "No",
+          "crafteo": "Se obtiene al derrotar a un phantom"
+        }
+      }
+    ],
+    "pasos": [
+      "1. Botella de Agua + Verruga Del Nether = Poción Rara (Base)",
+      "2. Poción Rara + Membrana de Phantom = Poción de Caída Lenta"
+    ]
+  },
+  {
+    "nombre": "Poción de Salto",
+    "descripcion": "Crea una poción de salto.",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Verruga Del Nether",
+        "tipo": "Base",
+        "descripcion": "Ingrediente esencial para todas las pociones primarias.",
+        "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
+        "obtencion": {
+          "dimencion": "Nether",
+          "ubicacion": "Fortalezas del Nether",
+          "Herramienta": "No",
+          "crafteo": "No"
+        }
+      },
+      {
+        "id": 16,
+        "nombre": "Pata de conejo",
+        "tipo": "Efecto",
+        "descripcion": "Crea una poción de salto.",
+        "imagen": "http://10.55.37.2:3000/assets/pata_conejo.webp",
+        "obtencion": {
+          "dimencion": "Overworld",
+          "ubicacion": "bioma floral, desiertos y llanuras",
+          "Herramienta": "No",
+          "crafteo": "Se obtiene al derrotar a un conejo"
+        }
+      }
+    ],
+    "pasos": [
+      "1. Botella de Agua + Verruga Del Nether = Poción Rara (Base)",
+      "2. Poción Rara + Pata de Conejo = Poción de Salto (Nivel I)"
     ]
   }
 ]
