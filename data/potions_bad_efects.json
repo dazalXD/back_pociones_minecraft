@@ -10,6 +10,7 @@
                 "descripcion": "Ingrediente esencial para todas las pociones primarias.",
                 "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
                 "obtencion": {
+                    "id": 19,
                     "dimencion": "Nether",
                     "ubicacion": "Fortalezas del Nether",
                     "Herramienta": "No",
@@ -23,6 +24,7 @@
                 "descripcion": "Corrompe pociones a efectos negativos.",
                 "imagen": "http://10.55.37.2:3000/assets/ojo_de_araña_fermentado.png",
                 "obtencion": {
+                    "id": 20,
                     "dimencion": "Overworld",
                     "ubicacion": "No",
                     "Herramienta": "No",
@@ -46,6 +48,7 @@
                 "descripcion": "Ingrediente esencial para todas las pociones primarias.",
                 "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
                 "obtencion": {
+                    "id": 21,
                     "dimencion": "Nether",
                     "ubicacion": "Fortalezas del Nether",
                     "Herramienta": "No",
@@ -59,6 +62,7 @@
                 "descripcion": "Crea una poción de Veneno.",
                 "imagen": "http://10.55.37.2:3000/assets/Ojo_araña.png",
                 "obtencion": {
+                    "id": 22,
                     "dimencion": "Overworld",
                     "ubicacion": "Cualquier bioma",
                     "Herramienta": "No",
@@ -82,6 +86,7 @@
                 "descripcion": "Corrompe pociones a efectos negativos.",
                 "imagen": "http://10.55.37.2:3000/assets/ojo_de_araña_fermentado.png",
                 "obtencion": {
+                    "id": 23,
                     "dimencion": "Overworld",
                     "ubicacion": "No",
                     "Herramienta": "No",
@@ -104,6 +109,7 @@
                 "descripcion": "Corrompe pociones a efectos negativos.",
                 "imagen": "http://10.55.37.2:3000/assets/ojo_de_araña_fermentado.png",
                 "obtencion": {
+                    "id": 24,
                     "dimencion": "Overworld",
                     "ubicacion": "No",
                     "Herramienta": "No",
@@ -126,6 +132,7 @@
                 "descripcion": "Corrompe pociones a efectos negativos.",
                 "imagen": "http://10.55.37.2:3000/assets/ojo_de_araña_fermentado.png",
                 "obtencion": {
+                    "id": 25,
                     "dimencion": "Overworld",
                     "ubicacion": "No",
                     "Herramienta": "No",
@@ -148,6 +155,7 @@
                 "descripcion": "Transforma una poción en una versión arrojadiza (splash).",
                 "imagen": "http://10.55.37.2:3000/assets/polvora.png",
                 "obtencion": {
+                    "id": 26,
                     "dimencion": "Overworld, Nether",
                     "ubicacion": "Cualquier bioma",
                     "Herramienta": "No",
@@ -170,6 +178,7 @@
                 "descripcion": "Transforma una poción en una versión arrojadiza (splash).",
                 "imagen": "http://10.55.37.2:3000/assets/polvora.png",
                 "obtencion": {
+                    "id": 27,
                     "dimencion": "Overworld, Nether",
                     "ubicacion": "Cualquier bioma",
                     "Herramienta": "No",
@@ -183,6 +192,7 @@
                 "descripcion": "Convierte una poción arrojadiza en una poción persistente (lingering).",
                 "imagen": "http://10.55.37.2:3000/assets/aliento_dragon.png",
                 "obtencion": {
+                    "id": 28,
                     "dimencion": "End",
                     "ubicacion": "Isla pricipal del End",
                     "Herramienta": "Botella de vidrio",

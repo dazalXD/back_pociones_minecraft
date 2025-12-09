@@ -10,6 +10,7 @@
         "descripcion": "Ingrediente esencial para todas las pociones primarias.",
         "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
         "obtencion": {
+          "id": 1,
           "dimencion": "Nether",
           "ubicacion": "Fortalezas del Nether",
           "Herramienta": "No",
@@ -23,6 +24,7 @@
         "descripcion": "Crea una poción de curación instantánea.",
         "imagen": "http://10.55.37.2:3000/assets/sandia_relusiente.webp",
         "obtencion": {
+          "id": 2,
           "dimencion": "Overworld",
           "ubicacion": "bioma jungla",
           "Herramienta": "No",
@@ -46,6 +48,7 @@
         "descripcion": "Ingrediente esencial para todas las pociones primarias.",
         "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
         "obtencion": {
+          "id": 3,
           "dimencion": "Nether",
           "ubicacion": "Fortalezas del Nether",
           "Herramienta": "No",
@@ -59,6 +62,7 @@
         "descripcion": "Crear una poción de visión nocturna.",
         "imagen": "http://10.55.37.2:3000/assets/zanahoria_dorada.png",
         "obtencion": {
+          "id": 4,
           "dimencion": "Overworld",
           "ubicacion": "No",
           "Herramienta": "No",
@@ -82,6 +86,7 @@
         "descripcion": "Ingrediente esencial para todas las pociones primarias.",
         "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
         "obtencion": {
+          "id": 5,
           "dimencion": "Nether",
           "ubicacion": "Fortalezas del Nether",
           "Herramienta": "No",
@@ -95,6 +100,7 @@
         "descripcion": "Crea una poción de velocidad.",
         "imagen": "http://10.55.37.2:3000/assets/azucar.png",
         "obtencion": {
+          "id": 6,
           "dimencion": "Overworld",
           "ubicacion": "bioma orilla de ríos y océanos",
           "Herramienta": "No",
@@ -118,6 +124,7 @@
         "descripcion": "Ingrediente esencial para todas las pociones primarias.",
         "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
         "obtencion": {
+          "id": 7,
           "dimencion": "Nether",
           "ubicacion": "Fortalezas del Nether",
           "Herramienta": "No",
@@ -131,6 +138,7 @@
         "descripcion": "Crea una poción de resistencia al fuego.",
         "imagen": "http://10.55.37.2:3000/assets/crema_de_magma.png",
         "obtencion": {
+          "id": 8,
           "dimencion": "Nether",
           "ubicacion": "Cualquier bioma del nether",
           "Herramienta": "No",
@@ -154,6 +162,7 @@
         "descripcion": "Ingrediente esencial para todas las pociones primarias.",
         "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
         "obtencion": {
+          "id": 9,
           "dimencion": "Nether",
           "ubicacion": "Fortalezas del Nether",
           "Herramienta": "No",
@@ -167,6 +176,7 @@
         "descripcion": "Crea una poción de Fuerza.",
         "imagen": "http://10.55.37.2:3000/assets/polvo_blaze.png",
         "obtencion": {
+          "id": 10,
           "dimencion": "Nether",
           "ubicacion": "Fortalezas del Nether",
           "Herramienta": "No",
@@ -190,6 +200,7 @@
         "descripcion": "Ingrediente esencial para todas las pociones primarias.",
         "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
         "obtencion": {
+          "id": 11,
           "dimencion": "Nether",
           "ubicacion": "Fortalezas del Nether",
           "Herramienta": "No",
@@ -203,6 +214,7 @@
         "descripcion": "Crea una poción de Respiración Acuática.",
         "imagen": "http://10.55.37.2:3000/assets/pez_globo.png",
         "obtencion": {
+          "id": 12,
           "dimencion": "Overworld",
           "ubicacion": "Océanos y ríos",
           "Herramienta": "Caña de pescar o cubo de agua",
@@ -226,6 +238,7 @@
         "descripcion": "Ingrediente esencial para todas las pociones primarias.",
         "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
         "obtencion": {
+          "id": 13,
           "dimencion": "Nether",
           "ubicacion": "Fortalezas del Nether",
           "Herramienta": "No",
@@ -239,6 +252,7 @@
         "descripcion": "Crea una poción de regeneración.",
         "imagen": "http://10.55.37.2:3000/assets/lagrima_ghast.webp",
         "obtencion": {
+          "id": 14,
           "dimencion": "Nether",
           "ubicacion": "cualquier bioma del nether",
           "Herramienta": "No",
@@ -262,6 +276,7 @@
         "descripcion": "Ingrediente esencial para todas las pociones primarias.",
         "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
         "obtencion": {
+          "id": 15,
           "dimencion": "Nether",
           "ubicacion": "Fortalezas del Nether",
           "Herramienta": "No",
@@ -275,6 +290,7 @@
         "descripcion": "Crea una poción de caida lenta.",
         "imagen": "http://10.55.37.2:3000/assets/membrana_fantasma.webp",
         "obtencion": {
+          "id": 16,
           "dimencion": "Overworld",
           "ubicacion": "Cualquier bioma",
           "Herramienta": "No",
@@ -298,6 +314,7 @@
         "descripcion": "Ingrediente esencial para todas las pociones primarias.",
         "imagen": "http://10.55.37.2:3000/assets/verruga_nether.png",
         "obtencion": {
+          "id": 17,
           "dimencion": "Nether",
           "ubicacion": "Fortalezas del Nether",
           "Herramienta": "No",
@@ -311,6 +328,7 @@
         "descripcion": "Crea una poción de salto.",
         "imagen": "http://10.55.37.2:3000/assets/pata_conejo.webp",
         "obtencion": {
+          "id": 18,
           "dimencion": "Overworld",
           "ubicacion": "bioma floral, desiertos y llanuras",
           "Herramienta": "No",
